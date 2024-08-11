@@ -814,15 +814,7 @@
             </div>
         </div>
 <form class="form2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" >
-<?php
-        
-        if (isset($message['form2']) && !empty($message['form2'])) {
-            foreach ($message['form2'] as $msg) {
-                echo '<p class="message">' . $msg . '</p>';
-            }
-        }
-         
-        ?>
+
     <input type="email" name="email" id="" placeholder="email">
     <input style="text-align: center;" type="submit" name="submitem" value="save">
 </form>
@@ -830,7 +822,7 @@
             <div class="container">
 
                 <p class="copyright">
-                    &copy; 2022 <a href="">codewithsadee</a>. All rights reserved
+                    &copy; 2024 <a href="">OS SPHERE</a>. All rights reserved
                 </p>
 
                 <ul class="footer-bottom-list">
