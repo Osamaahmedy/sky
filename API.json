@@ -1,0 +1,12 @@
+{
+    "form1": {
+        "form1-data-input": "name-number-text-email-date",
+        "form1-api-message": "Please fill in all the required inputs,Appointment made successfully! ,Account already exists in the database!",
+        "form1-api-message-error": "Appointment failed"
+    },
+    "form2-email": {
+        "form2-data-input": "email",
+        "form2-api-message": "Please fill in all the required inputs,email have been added! ,email already exists in the database!",
+        "form2-api-message-error": "Appointment failed"
+    }
+}
